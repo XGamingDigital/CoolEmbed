@@ -1,0 +1,1 @@
+document.write('<script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool@latest'></script>')
