@@ -108,7 +108,7 @@ $(document).ready(function () {
             let langIcon = myPlayer.getLangConfig(lang, "icon");  // Obtiene el ícono del idioma
             $(".langclass").append(
                 '<li id="li-' + lang + '" onclick="SelLang(this, \'' + lang + '\');">' +
-                '<img src="https://cdn.jsdelivr.net/gh/Luis07019/blogdepelis@main/embed/static/server/' + langIcon + '">' +
+                '<img src="https://cdn.jsdelivr.net/gh/XGamingDigital/CoolEmbed@main/embed/static/server/' + langIcon + '">' +
                 '</li>'
             );
             $(".cyberlockerClass").append('<div class="OD OD_' + lang + '"></div>');
@@ -117,7 +117,7 @@ $(document).ready(function () {
                 let cyberlockerIcon = myPlayer.getCyberlockersConfig(item.cyberlocker, "icon");
                 $(".OD_" + lang).append(
                     "<li onclick=\"go_to_player('" + item.link + "')\">" +
-                    '<img src="https://cdn.jsdelivr.net/gh/Luis07019/blogdepelis@main/embed/static/server/' + cyberlockerIcon + '">' +
+                    '<img src="https://cdn.jsdelivr.net/gh/XGamingDigital/CoolEmbed@main/embed/static/server/' + cyberlockerIcon + '">' +
                     '<span>' + item.cyberlocker + '</span>' +
                     '<p>Audio: ' + item.language + ' - Calidad: ' + item.quality + '</p>' +
                     '</li>'
